@@ -5,11 +5,8 @@ const ScrollSection = React.createClass({
     let pageId = this.props.pageId;
 
     let onepageStyle = {
-      position: 'absolute',
-      top: `${pageId * 100}%`,
       width: '100%',
       height: '100%',
-      borderRadius: '4px',
     };
 
     let style = Object.assign({}, onepageStyle, this.props.style)
